@@ -12,4 +12,4 @@ Exercício 05: Faça um programa que tenha uma função notas() que pode receber
 
 – Quantidade de notas                                                                                                                                                  – A maior nota                                                                                                                                                                – A menor nota                                                                                                                                                              – A média da turma                                                                                                                                                      – A situação (opcional)
 
-Exercício 06: 
+Exercício 06:  Faça um mini-sistema que utilize o Interactive Help do Python. O usuário vai digitar o comando e o manual vai aparecer. Quando o usuário digitar a palavra ‘FIM’, o programa se encerrará. Importante: use cores.
