@@ -2,6 +2,11 @@ from time import sleep
 
 
 def ajuda(com):
+    """
+    -> Sistema de interação de ajuda para entender os comandos digitados pelo usuario.
+    :param com: Comando digitado pelo usuario
+    :return: help() do comando digitado pelo usuario
+    """
     titulo(f'Acessando o manual do comando "{com}"', 4)
     print(c[3], end='')
     help(com)
@@ -10,6 +15,12 @@ def ajuda(com):
 
 
 def titulo(msg, cor=0):
+    """
+    -> Função de titulo  formatado
+    :param msg: Titulo do painel
+    :param cor: Cor de fundo do Titulo
+    :return: Titulo formatado e com cor de fundo
+    """
     tam = len(msg) + 4
     print(c[cor], end='')
     print('~' * tam)
